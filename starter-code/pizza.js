@@ -172,7 +172,6 @@ function renderPrice() {
 
 renderEverything();
 
-// Iteration 1: Example of a click event listener on `<button class="btn btn-pepperoni">`
 document.querySelector('.btn.btn-pepperonni').addEventListener('click', () => {
     state.pepperoni = !state.pepperoni;
     renderEverything();
